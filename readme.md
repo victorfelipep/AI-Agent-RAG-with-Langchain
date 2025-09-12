@@ -9,13 +9,13 @@ It allows you to upload PDF documents, vectorize them into a database, and then 
 ## 📂 Project Structure
 
 .
-├── base/ # Folder containing your PDF documents (e.g., "The Little Prince")
-├── db/ # Persistent ChromaDB database generated from PDFs
-├── create_db.py # Script to load, chunk, and vectorize documents
-├── main.py # Script to query the RAG system
-├── .env # Environment variables (OpenAI API key)
-├── requirements.txt # Project dependencies
-└── README.md # Documentation
+- ├── base/ # Folder containing your PDF documents (e.g., "The Little Prince")
+- ├── db/ # Persistent ChromaDB database generated from PDFs
+- ├── create_db.py # Script to load, chunk, and vectorize documents
+- ├── main.py # Script to query the RAG system
+- ├── .env # Environment variables (OpenAI API key)
+- ├── requirements.txt # Project dependencies
+- └── README.md # Documentation
 
 ---
 
@@ -73,4 +73,5 @@ This project was developed for educational and portfolio purposes.
 All PDF examples (like The Little Prince) are included only for demonstration.
 
 👤 Author
+
 Developed by Victor Souza.
